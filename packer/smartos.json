@@ -1,0 +1,70 @@
+{
+  "variables": {
+    "PACKER_OS_FLAVOUR": "smartos",
+    "PACKER_BOX_NAME": "smartos",
+    "AWS_ACCESS_KEY_ID": "{{env `AWS_ACCESS_KEY_ID`}}",
+    "AWS_SECRET_ACCESS_KEY": "{{env `AWS_SECRET_ACCESS_KEY`}}",
+    "PACKER_ATLAS_TOKEN": "{{env `PACKER_ATLAS_TOKEN`}}",
+    "PACKER_ATLAS_VERSION": "",
+    "DISK_SIZE": "25140"
+  },
+  "builders": [
+    {
+      "type": "virtualbox-iso",
+      "boot_command": [
+        "<enter><wait5>",
+        "<enter><wait5>",
+        "dhcp<enter><wait5>",
+        "<enter><wait10>",
+        "<enter><wait15>",
+        "<enter><wait15>",
+        ".com<enter><wait5>",
+        "<enter><wait15>",
+        "yes<enter><wait5>",
+        "vagrant<enter><wait5>",
+        "vagrant<enter><wait5>",
+        "smartos<enter><wait5>",
+        "y<enter><wait15>",
+        "<enter><wait>"
+      ],
+      "boot_wait": "60s",
+      "headless": false,
+      "disk_size": "{{ user `DISK_SIZE` }}",
+      "guest_os_type": "OpenSolaris_64",
+      "iso_checksum": "d4c016c5c3453a673525512a782d6f9e343701f5b82190500a9333a70d071c3a",
+      "iso_checksum_type": "sha256",
+      "iso_url": "https://us-east.manta.joyent.com/Joyent_Dev/public/SmartOS/smartos-latest.iso",
+      "shutdown_command": "echo 'vagrant'|sudo -S shutdown -P now",
+      "shutdown_timeout": "1m",
+      "ssh_password": "vagrant",
+      "ssh_port": 22,
+      "ssh_username": "root",
+      "ssh_wait_timeout": "10000s",
+      "type": "virtualbox-iso",
+      "vm_name": "{{ user `PACKER_BOX_NAME` }}",
+      "vboxmanage": [
+        ["modifyvm", "{{.Name}}", "--memory", "1024"],
+        ["modifyvm", "{{.Name}}", "--cpus", "2"]
+      ],
+      "virtualbox_version_file": ".vbox_version"
+    }
+  ],
+  "provisioners": [
+    {
+      "execute_command": "echo 'vagrant'|{{.Vars}} sudo -S -E bash '{{.Path}}'",
+      "scripts": [
+        "scripts/smartos/update.sh"
+      ],
+      "type": "shell"
+    }
+  ],
+  "post-processors": [
+    [
+      {
+        "type": "vagrant",
+        "compression_level": "9",
+        "output": "../builds/{{.Provider}}/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"
+      }
+    ]
+  ]
+}
