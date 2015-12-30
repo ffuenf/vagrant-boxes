@@ -14,6 +14,9 @@ task
 exec /usr/bin/apt-get update
 EOF
 
+# install https transport for apt
+apt-get -y install apt-transport-https
+
 # install curl to fix broken wget while retrieving content from secured sites
 apt-get -y install curl
 

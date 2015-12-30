@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.18:
+* install https transport for apt
+
 ## v1.0.17:
 * upgrade VirtualBox Guest Additions 5.0.10
 * depreciate Ubuntu Utopic Unicorn 14.10 Server x86_64 (build/installer fails actually)
