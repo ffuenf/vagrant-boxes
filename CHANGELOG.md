@@ -2,6 +2,11 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.25:
+* added Debian Wheezy 7.10.0 x86_64
+* depreciate Debian Wheezy 7.9.0 x86_64
+* fix cleanup (breaks vmtools installation)
+
 ## v1.0.24:
 * added Debian Jessie 8.4.0 x86_64
 * depreciate Debian Jessie 8.3.0 x86_64

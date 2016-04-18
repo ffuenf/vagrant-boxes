@@ -8,6 +8,8 @@ if [ "$dist" == "Ubuntu" ]; then
   apt-get -qy update;
   # Upgrade all installed packages incl. kernel and kernel headers
   apt-get -qy dist-upgrade --force-yes;
+  reboot;
+  sleep 60;
 fi
 if [ "$dist" == "Debian" ]; then
   arch="`uname -r | sed 's/^.*[0-9]\{1,\}\.[0-9]\{1,\}\.[0-9]\{1,\}\(-[0-9]\{1,2\}\)-//'`"

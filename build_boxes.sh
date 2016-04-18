@@ -1,25 +1,25 @@
 #!/bin/bash -eux
 
 bundle exec thor packer:build \
-  --atlas_version=1.0.24 \
+  --atlas_version=1.0.25 \
   --os=debian \
-  --os_version=7.9.0 \
+  --os_version=7.10.0 \
   --providers=virtualbox,vmware,parallels
 
 bundle exec thor packer:build \
-  --atlas_version=1.0.24 \
+  --atlas_version=1.0.25 \
   --os=debian \
   --os_version=8.4.0 \
   --providers=virtualbox,vmware,parallels
 
 bundle exec thor packer:build \
-  --atlas_version=1.0.24 \
+  --atlas_version=1.0.25 \
   --os=ubuntu \
   --os_version=14.04.4-server \
   --providers=virtualbox,vmware,parallels
 
 bundle exec thor packer:build \
-  --atlas_version=1.0.24 \
+  --atlas_version=1.0.25 \
   --os=ubuntu \
   --os_version=15.10-server \
   --providers=virtualbox,parallels
