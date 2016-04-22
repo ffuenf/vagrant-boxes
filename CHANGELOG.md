@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.27:
+* added Ubuntu Xenial Xerus 16.04 Server x86_64
+* re-added Ubuntu Wily Werewolf 15.10 Server x86_64 for VMware Fusion
+
 ## v1.0.26:
 * upgrade VirtualBox Guest Additions 5.0.18
 
