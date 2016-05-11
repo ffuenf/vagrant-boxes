@@ -2,6 +2,13 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.28:
+* upgrade VirtualBox Guest Additions 5.0.20
+* upgrade VMware Tools 10.0.6 build-3595377
+* upgrade Parallels Desktop 11.2.0-32581
+* upgrade Chef 12.9.41-1
+* upgrade Rubygems 2.6.4
+
 ## v1.0.27:
 * added Ubuntu Xenial Xerus 16.04 Server x86_64
 * re-added Ubuntu Wily Werewolf 15.10 Server x86_64 for VMware Fusion
