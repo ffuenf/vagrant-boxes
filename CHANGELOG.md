@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.29:
+* upgrade Chef 12.10.24-1
+
 ## v1.0.28:
 * upgrade VirtualBox Guest Additions 5.0.20
 * upgrade VMware Tools 10.0.6 build-3595377
