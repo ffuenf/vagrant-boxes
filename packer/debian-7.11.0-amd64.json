@@ -1,7 +1,7 @@
 {
   "variables": {
     "PACKER_OS_FLAVOUR": "debian",
-    "PACKER_BOX_NAME": "debian-8.4.0-amd64",
+    "PACKER_BOX_NAME": "debian-7.11.0-amd64",
     "AWS_ACCESS_KEY_ID": "{{env `AWS_ACCESS_KEY_ID`}}",
     "AWS_SECRET_ACCESS_KEY": "{{env `AWS_SECRET_ACCESS_KEY`}}",
     "PACKER_ATLAS_TOKEN": "{{env `PACKER_ATLAS_TOKEN`}}",
@@ -33,9 +33,9 @@
       "disk_size": "{{ user `DISK_SIZE` }}",
       "guest_os_type": "Debian_64",
       "http_directory": "http",
-      "iso_checksum": "e51200021d0356f6dc84e2307218c56230c7f539634be6ffb243971e93b9d37fc63c7cec9ba58fcf0f970a89733f86d8c71e4b18e5045351536cc36aef4f261b",
+      "iso_checksum": "a6323a048e17270caec2ba2719694e82b7c8a1ab997f427ce5315fa4384a23e62e6d65c701e5c98d784b7ad98e3697fabb294bf67aee864084abe92bb87f20a5",
       "iso_checksum_type": "sha512",
-      "iso_url": "http://cdimage.debian.org/cdimage/release/8.4.0/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
+      "iso_url": "http://cdimage.debian.org/cdimage/archive/7.11.0/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -73,9 +73,9 @@
       "disk_size": "{{ user `DISK_SIZE` }}",
       "guest_os_type": "debian7-64",
       "http_directory": "http",
-      "iso_checksum": "e51200021d0356f6dc84e2307218c56230c7f539634be6ffb243971e93b9d37fc63c7cec9ba58fcf0f970a89733f86d8c71e4b18e5045351536cc36aef4f261b",
+      "iso_checksum": "a6323a048e17270caec2ba2719694e82b7c8a1ab997f427ce5315fa4384a23e62e6d65c701e5c98d784b7ad98e3697fabb294bf67aee864084abe92bb87f20a5",
       "iso_checksum_type": "sha512",
-      "iso_url": "http://cdimage.debian.org/cdimage/release/8.4.0/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
+      "iso_url": "http://cdimage.debian.org/cdimage/archive/7.11.0/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -112,9 +112,9 @@
       "disk_size": "{{ user `DISK_SIZE` }}",
       "guest_os_type": "debian",
       "http_directory": "http",
-      "iso_checksum": "e51200021d0356f6dc84e2307218c56230c7f539634be6ffb243971e93b9d37fc63c7cec9ba58fcf0f970a89733f86d8c71e4b18e5045351536cc36aef4f261b",
+      "iso_checksum": "a6323a048e17270caec2ba2719694e82b7c8a1ab997f427ce5315fa4384a23e62e6d65c701e5c98d784b7ad98e3697fabb294bf67aee864084abe92bb87f20a5",
       "iso_checksum_type": "sha512",
-      "iso_url": "http://cdimage.debian.org/cdimage/release/8.4.0/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
+      "iso_url": "http://cdimage.debian.org/cdimage/archive/7.11.0/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -133,7 +133,7 @@
   "provisioners": [
     {
       "type": "shell",
-      "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash -eux '{{.Path}}'",
+      "execute_command": "echo 'vagrant' | {{.Vars}} sudo -E -S bash '{{.Path}}'",
       "scripts": [
         "scripts/update.sh",
         "scripts/sshd.sh",
@@ -152,7 +152,7 @@
     [
       {
         "type": "vagrant",
-        "compression_level": 9,
+        "compression_level": "9",
         "output": "../builds/{{.Provider}}/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"
       }
     ]
