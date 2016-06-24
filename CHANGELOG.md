@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.31:
+* upgrade VirtualBox Guest Additions 5.0.22
+
 ## v1.0.30:
 * added Debian Jessie 8.5.0 x86_64
 * added Debian Wheezy 7.11.0 x86_64

@@ -70,7 +70,7 @@ Boxes
 #### Ubuntu Xenial Xerus 16.04 Server x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.20
+* VirtualBox Guest Additions 5.0.22
 * Parallels Desktop 11.2.0-32581
 * Chef 12.11.18-1
 * Ruby 2.3.0-5ubuntu1
@@ -88,7 +88,7 @@ Boxes
 #### Ubuntu Wily Werewolf 15.10 Server x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.20
+* VirtualBox Guest Additions 5.0.22
 * Parallels Desktop 11.2.0-32581
 * Chef 12.11.18-1
 * Ruby 2.1.5-4ubuntu1
@@ -106,7 +106,7 @@ Boxes
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.20
+* VirtualBox Guest Additions 5.0.22
 * Parallels Desktop 11.2.0-32581
 * Chef 12.11.18-1
 * Ruby 1.9.3.484-2ubuntu1.2
@@ -127,7 +127,7 @@ Boxes
 ##### Debian Jessie 8.5.0 x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.20
+* VirtualBox Guest Additions 5.0.22
 * Parallels Desktop 11.2.0-32581
 * Chef 12.11.18-1
 * Ruby 2.1.5-2+deb8u2
@@ -145,7 +145,7 @@ Boxes
 ##### Debian Wheezy 7.11.0 x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.20
+* VirtualBox Guest Additions 5.0.22
 * Parallels Desktop 11.2.0-32581
 * Chef 12.11.18-1
 * Ruby 1.9.3.194-8.1+deb7u5
