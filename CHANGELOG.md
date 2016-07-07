@@ -3,7 +3,9 @@
 This file is used to list changes made in each version of vagrant-boxes.
 
 ## v1.0.31:
-* upgrade VirtualBox Guest Additions 5.0.22
+* upgrade VirtualBox Guest Additions 5.0.24
+* upgrade Rubygems 2.6.6
+* upgrade Chef 12.12.13-1
 
 ## v1.0.30:
 * added Debian Jessie 8.5.0 x86_64
