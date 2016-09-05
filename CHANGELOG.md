@@ -2,6 +2,19 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.34:
+* upgrade Chef 12.13.37-1
+* downgrade to VirtualBox Guest Additions 5.0.26
+
+## v1.0.33:
+* upgrade Chef 12.13.30-1
+* upgrade Parallels Desktop 11.2.1-32626
+
+## v1.0.32:
+* upgrade Chef 12.12.15-1
+* upgrade VirtualBox Guest Additions 5.1.0
+* debian fix for vagrant halt hang (@abraithwaite)
+
 ## v1.0.31:
 * upgrade VirtualBox Guest Additions 5.0.24
 * upgrade Rubygems 2.6.6

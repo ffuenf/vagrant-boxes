@@ -1,6 +1,7 @@
 {
   "variables": {
     "PACKER_OS_FLAVOUR": "debian",
+    "PACKER_OS_RELEASE": "jessie",
     "PACKER_BOX_NAME": "debian-8.5.0-amd64",
     "AWS_ACCESS_KEY_ID": "{{env `AWS_ACCESS_KEY_ID`}}",
     "AWS_SECRET_ACCESS_KEY": "{{env `AWS_SECRET_ACCESS_KEY`}}",

@@ -70,9 +70,9 @@ Boxes
 #### Ubuntu Xenial Xerus 16.04 Server x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.24
-* Parallels Desktop 11.2.0-32581
-* Chef 12.12.13-1
+* VirtualBox Guest Additions 5.0.26
+* Parallels Desktop 11.2.1-32626
+* Chef 12.13.37-1
 * Ruby 2.3.0-5ubuntu1
 * Rubygems 2.6.6
 
@@ -88,9 +88,9 @@ Boxes
 #### Ubuntu Wily Werewolf 15.10 Server x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.24
-* Parallels Desktop 11.2.0-32581
-* Chef 12.12.13-1
+* VirtualBox Guest Additions 5.0.26
+* Parallels Desktop 11.2.1-32626
+* Chef 12.13.37-1
 * Ruby 2.1.5-4ubuntu1
 * Rubygems 2.6.6
 
@@ -106,9 +106,9 @@ Boxes
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.24
-* Parallels Desktop 11.2.0-32581
-* Chef 12.12.13-1
+* VirtualBox Guest Additions 5.0.26
+* Parallels Desktop 11.2.1-32626
+* Chef 12.13.37-1
 * Ruby 1.9.3.484-2ubuntu1.2
 * Rubygems 2.6.6
 
@@ -127,9 +127,9 @@ Boxes
 ##### Debian Jessie 8.5.0 x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.24
-* Parallels Desktop 11.2.0-32581
-* Chef 12.12.13-1
+* VirtualBox Guest Additions 5.0.26
+* Parallels Desktop 11.2.1-32626
+* Chef 12.13.37-1
 * Ruby 2.1.5-2+deb8u2
 * Rubygems 2.6.6
 
@@ -145,9 +145,9 @@ Boxes
 ##### Debian Wheezy 7.11.0 x86_64
 
 * VMware Tools 10.0.6 build-3595377
-* VirtualBox Guest Additions 5.0.24
-* Parallels Desktop 11.2.0-32581
-* Chef 12.12.13-1
+* VirtualBox Guest Additions 5.0.26
+* Parallels Desktop 11.2.1-32626
+* Chef 12.13.37-1
 * Ruby 1.9.3.194-8.1+deb7u5
 * Rubygems 2.6.6
 

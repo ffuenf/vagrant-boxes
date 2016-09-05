@@ -18,3 +18,8 @@ if grep -q -E "^[[:space:]]*GSSAPIAuthentication" "$SSHD_CONFIG"; then
 else
     echo "$GSSAPI" >>"$SSHD_CONFIG"
 fi
+
+if [ "$PACKER_OS_FLAVOUR" == "debian" && "PACKER_OS_RELEASE" == "jessie" ]; then
+  systemctl disable ssh.service
+  systemctl enable ssh.socket
+fi
