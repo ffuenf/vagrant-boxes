@@ -138,6 +138,7 @@
       "scripts": [
         "scripts/update.sh",
         "scripts/sshd.sh",
+        "scripts/sshd-debian.sh",
         "scripts/networking.sh",
         "scripts/sudoers.sh",
         "scripts/vagrant.sh",
