@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
-## v1.0.34:
+## v1.0.35:
 * upgrade Chef 12.14.60-1
 * upgrade VMware Tools 10.0.10 build-4301679
 
