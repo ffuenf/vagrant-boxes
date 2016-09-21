@@ -2,6 +2,23 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.38:
+* upgrade Chef 12.15.19-1
+* upgrade Parallels Desktop 12.0.2-41353
+* added Ubuntu Yakkety Yak 16.10 Server x86_64
+* depreciate Debian Wheezy 7.11.0 x86_64
+* suspend Parallels Desktop builds as v12 is not supported by packer atm
+
+## v1.0.37:
+* upgrade Chef 12.14.89-1
+
+## v1.0.36:
+* added Debian Jessie 8.6.0 x86_64
+* depreciate Debian Jessie 8.5.0 x86_64
+* added Ubuntu Xenial Xerus 16.04.1 Server x86_64
+* depreciate Ubuntu Xenial Xerus 16.04 Server x86_64
+* upgrade Chef 12.14.77-1
+
 ## v1.0.35:
 * upgrade Chef 12.14.60-1
 * upgrade VMware Tools 10.0.10 build-4301679

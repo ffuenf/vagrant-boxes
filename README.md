@@ -67,21 +67,39 @@ Boxes
 =====
 
 ### Ubuntu
-#### Ubuntu Xenial Xerus 16.04 Server x86_64
+#### Ubuntu Yakkety Yak 16.10 Server x86_64
 
 * VMware Tools 10.0.10 build-4301679
 * VirtualBox Guest Additions 5.0.26
 * Parallels Desktop 11.2.1-32626
-* Chef 12.14.60-1
-* Ruby 2.3.0-5ubuntu1
+* Chef 12.15.19-1
+* Ruby 2.1.5-4ubuntu1
 * Rubygems 2.6.6
 
 | Provider          | URL                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-16.04-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.04-server-amd64)                                                                                                                                                                                                                                                                                                                |
-| Virtualbox        | [ubuntu-16.04-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_virtualbox_SHA512SUM) |
-| VMWare Fusion     | [ubuntu-16.04-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_vmware_SHA512SUM)                 |
-| Parallels Desktop | [ubuntu-16.04-server-amd64_parallels.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_parallels.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_parallels_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04-server-amd64_parallels_SHA512SUM)     |
+| Atlas             | [ffuenf/ubuntu-16.10-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.10-server-amd64)                                                                                                                                                                                                                                                                                                                |
+| Virtualbox        | [ubuntu-16.10-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_virtualbox_SHA512SUM) |
+| VMWare Fusion     | [ubuntu-16.10-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_vmware_SHA512SUM)                 |
+| Parallels Desktop | suspended as v12 is not supported atm                                                                                                                                                                                                                                                                                                                                                                           |
+
+---
+
+#### Ubuntu Xenial Xerus 16.04.1 Server x86_64
+
+* VMware Tools 10.0.10 build-4301679
+* VirtualBox Guest Additions 5.0.26
+* Parallels Desktop 11.2.1-32626
+* Chef 12.15.19-1
+* Ruby 2.3.0-5ubuntu1
+* Rubygems 2.6.6
+
+| Provider          | URL                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Atlas             | [ffuenf/ubuntu-16.04.1-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.04.1-server-amd64)                                                                                                                                                                                                                                                                                                                    |
+| Virtualbox        | [ubuntu-16.04.1-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_virtualbox_SHA512SUM) |
+| VMWare Fusion     | [ubuntu-16.04.1-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_vmware_SHA512SUM)                 |
+| Parallels Desktop | suspended as v12 is not supported atm                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ---
 
@@ -90,7 +108,7 @@ Boxes
 * VMware Tools 10.0.10 build-4301679
 * VirtualBox Guest Additions 5.0.26
 * Parallels Desktop 11.2.1-32626
-* Chef 12.14.60-1
+* Chef 12.15.19-1
 * Ruby 2.1.5-4ubuntu1
 * Rubygems 2.6.6
 
@@ -99,8 +117,7 @@ Boxes
 | Atlas             | [ffuenf/ubuntu-15.10-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-15.10-server-amd64)                                                                                                                                                                                                                                                                                                                |
 | Virtualbox        | [ubuntu-15.10-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_virtualbox_SHA512SUM) |
 | VMWare Fusion     | [ubuntu-15.10-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_vmware_SHA512SUM)                 |
-| Parallels Desktop | [ubuntu-15.10-server-amd64_parallels.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_parallels.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_parallels_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-15.10-server-amd64_parallels_SHA512SUM)     |
-
+| Parallels Desktop | suspended as v12 is not supported atm                                                                                                                                                                                                                                                                                                                                                                           |
 ---
 
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64
@@ -108,7 +125,7 @@ Boxes
 * VMware Tools 10.0.10 build-4301679
 * VirtualBox Guest Additions 5.0.26
 * Parallels Desktop 11.2.1-32626
-* Chef 12.14.60-1
+* Chef 12.15.19-1
 * Ruby 1.9.3.484-2ubuntu1.2
 * Rubygems 2.6.6
 
@@ -117,46 +134,28 @@ Boxes
 | Atlas             | [ffuenf/ubuntu-14.04.4-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-14.04.4-server-amd64)                                                                                                                                                                                                                                                                                                                    |
 | Virtualbox        | [ubuntu-14.04.4-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_virtualbox_SHA512SUM) |
 | VMWare Fusion     | [ubuntu-14.04.4-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_vmware_SHA512SUM)                 |
-| Parallels Desktop | [ubuntu-14.04.4-server-amd64_parallels.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_parallels.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_parallels_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_parallels_SHA512SUM)     |
-
+| Parallels Desktop | suspended as v12 is not supported atm                                                                                                                                                                                                                                                                                                                                                                                   |
 ---
 
 ### Debian
 #### Debian Jessie 8.x
 
-##### Debian Jessie 8.5.0 x86_64
+##### Debian Jessie 8.6.0 x86_64
 
 * VMware Tools 10.0.10 build-4301679
 * VirtualBox Guest Additions 5.0.26
 * Parallels Desktop 11.2.1-32626
-* Chef 12.14.60-1
+* Chef 12.15.19-1
 * Ruby 2.1.5-2+deb8u2
 * Rubygems 2.6.6
 
 | Provider          | URL                                                                                                                                                                                                                                                                                                                                                                                 |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-8.5.0-amd64](https://atlas.hashicorp.com/ffuenf/debian-8.5.0-amd64)                                                                                                                                                                                                                                                                                                  |
-| Virtualbox        | [debian-8.5.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_virtualbox_SHA512SUM) |
-| VMWare Fusion     | [debian-8.5.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_vmware_SHA512SUM)                 |
-| Parallels Desktop | [debian-8.5.0-amd64_parallels.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_parallels.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_parallels_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.5.0-amd64_parallels_SHA512SUM)     |
-
-#### Debian Wheezy 7.x
-
-##### Debian Wheezy 7.11.0 x86_64
-
-* VMware Tools 10.0.10 build-4301679
-* VirtualBox Guest Additions 5.0.26
-* Parallels Desktop 11.2.1-32626
-* Chef 12.14.60-1
-* Ruby 1.9.3.194-8.1+deb7u5
-* Rubygems 2.6.6
-
-| Provider          | URL                                                                                                                                                                                                                                                                                                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-7.11.0-amd64](https://atlas.hashicorp.com/ffuenf/debian-7.11.0-amd64)                                                                                                                                                                                                                                                                                                    |
-| Virtualbox        | [debian-7.11.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_virtualbox_SHA512SUM) |
-| VMWare Fusion     | [debian-7.11.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_vmware_SHA512SUM)                 |
-| Parallels Desktop | [debian-7.11.0-amd64_parallels.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_parallels.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_parallels_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-7.11.0-amd64_parallels_SHA512SUM)     |
+| Atlas             | [ffuenf/debian-8.6.0-amd64](https://atlas.hashicorp.com/ffuenf/debian-8.6.0-amd64)                                                                                                                                                                                                                                                                                                  |
+| Virtualbox        | [debian-8.6.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_virtualbox.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_virtualbox_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_virtualbox_SHA512SUM) |
+| VMWare Fusion     | [debian-8.6.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_vmware.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_vmware_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_vmware_SHA512SUM)                 |
+| Parallels Desktop | [debian-8.6.0-amd64_parallels.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_parallels.box) [SHA256SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_parallels_SHA256SUM) [SHA512SUM](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_parallels_SHA512SUM)     |
+| Parallels Desktop | suspended as v12 is not supported atm                                                                                                                                                                                                                                                                                                                                               |
 
 ---
 
