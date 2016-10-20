@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.39:
+* upgrade VirtualBox Guest Additions 5.1.8
+
 ## v1.0.38:
 * upgrade Chef 12.15.19-1
 * upgrade Parallels Desktop 12.0.2-41353
