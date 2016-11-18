@@ -2,6 +2,14 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.40:
+* upgrade Chef 12.16.42-1
+* upgrade VMware Tools
+* upgrade Rubygems 2.6.8
+* move checksum logic to new packer post-processor
+* add manifests via new packer post-processor
+* completely abandon parallels (cli commands only works with pro or business versions)
+
 ## v1.0.39:
 * upgrade VirtualBox Guest Additions 5.1.8
 

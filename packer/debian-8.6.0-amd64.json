@@ -156,6 +156,16 @@
         "type": "vagrant",
         "compression_level": 9,
         "output": "../builds/{{.Provider}}/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"
+      },
+      {
+          "type": "checksum",
+          "checksum_types": ["sha256","sha512"],
+          "output": "../builds/CHECKSUMS"
+      },
+      {
+          "type": "manifest",
+          "filename": "../builds/{{ user `PACKER_BOX_NAME` }}.manifest.json",
+          "strip_path": true
       }
     ]
   ]

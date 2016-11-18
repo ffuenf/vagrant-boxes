@@ -1,2 +1,4 @@
 packer/packer_cache/
 *.box
+builds/*manifest.json
+builds/CHECKSUMS
