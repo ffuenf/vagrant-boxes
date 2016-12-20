@@ -138,7 +138,7 @@
       },
       {
           "type": "manifest",
-          "filename": "../builds/{{ user `PACKER_BOX_NAME` }}.manifest.json",
+          "output": "../builds/{{ user `PACKER_BOX_NAME` }}.manifest.json",
           "strip_path": true
       }
     ]

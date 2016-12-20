@@ -2,9 +2,16 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.42:
+* upgrade Chef 12.17.44-1
+* depreciate Ubuntu Wily Werewolf 15.10 Server x86_64
+
+## v1.0.41:
+* upgrade VirtualBox Guest Additions 5.1.10
+
 ## v1.0.40:
 * upgrade Chef 12.16.42-1
-* upgrade VMware Tools
+* upgrade VMware Tools 10.0.10 build-4301679
 * upgrade Rubygems 2.6.8
 * move checksum logic to new packer post-processor
 * add manifests via new packer post-processor
