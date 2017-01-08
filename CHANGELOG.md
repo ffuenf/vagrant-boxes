@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.43:
+* upgrade VirtualBox Guest Additions 5.1.12
+
 ## v1.0.42:
 * upgrade Chef 12.17.44-1
 * depreciate Ubuntu Wily Werewolf 15.10 Server x86_64
