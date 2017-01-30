@@ -4,7 +4,7 @@
 apt-get -qy install ruby ruby-dev libruby
 
 # Install Rubygems from source
-rg_ver=2.6.8
+rg_ver=2.6.10
 wget -q "https://rubygems.org/rubygems/rubygems-${rg_ver}.zip" \
      -O /tmp/rubygems-${rg_ver}.zip
 (cd /tmp && unzip -o -qq rubygems-${rg_ver}.zip -d /tmp && \

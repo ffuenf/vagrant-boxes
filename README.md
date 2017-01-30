@@ -43,7 +43,7 @@ run the following command to build/upload individual boxes:
 $ bundle exec thor packer:build \
   --atlas_version=1.0.0 \                         # version tag
   --os=debian \                                   # os distribution (debian/ubuntu)
-  --os_version=8.6.0 \                            # os version
+  --os_version=8.7.0 \                            # os version
   --providers=virtualbox,vmware_desktop,parallels # providers to build
 ```
 
@@ -69,10 +69,10 @@ Boxes
 #### Ubuntu Yakkety Yak 16.10 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.10-server-amd64.manifest.json)
 
 * VMware Tools 10.0.10 build-4301679
-* VirtualBox Guest Additions 5.1.12
-* Chef 12.17.44-1
+* VirtualBox Guest Additions 5.1.14
+* Chef 12.18.31-1
 * Ruby 2.1.5-4ubuntu1
-* Rubygems 2.6.8
+* Rubygems 2.6.10
 
 | Provider          | URL                                                                                                                                                   |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -85,10 +85,10 @@ Boxes
 #### Ubuntu Xenial Xerus 16.04.1 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.1-server-amd64.manifest.json)
 
 * VMware Tools 10.0.10 build-4301679
-* VirtualBox Guest Additions 5.1.12
-* Chef 12.17.44-1
+* VirtualBox Guest Additions 5.1.14
+* Chef 12.18.31-1
 * Ruby 2.3.0-5ubuntu1
-* Rubygems 2.6.8
+* Rubygems 2.6.10
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -101,10 +101,10 @@ Boxes
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-14.04.4-server-amd64.manifest.json)
 
 * VMware Tools 10.0.10 build-4301679
-* VirtualBox Guest Additions 5.1.12
-* Chef 12.17.44-1
+* VirtualBox Guest Additions 5.1.14
+* Chef 12.18.31-1
 * Ruby 1.9.3.484-2ubuntu1.2
-* Rubygems 2.6.8
+* Rubygems 2.6.10
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -115,19 +115,19 @@ Boxes
 ---
 
 ### Debian
-#### Debian Jessie 8.6.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.6.0-amd64.manifest.json)
+#### Debian Jessie 8.7.1 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.7.1-amd64.manifest.json)
 
 * VMware Tools 10.0.10 build-4301679
-* VirtualBox Guest Additions 5.1.12
-* Chef 12.17.44-1
+* VirtualBox Guest Additions 5.1.14
+* Chef 12.18.31-1
 * Ruby 2.1.5-2+deb8u3
-* Rubygems 2.6.8
+* Rubygems 2.6.10
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-8.6.0-amd64](https://atlas.hashicorp.com/ffuenf/debian-8.6.0-amd64)                                                      |
-| Virtualbox        | [debian-8.6.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-8.6.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.6.0-amd64_vmware.box)         |
+| Atlas             | [ffuenf/debian-8.7.1-amd64](https://atlas.hashicorp.com/ffuenf/debian-8.7.1-amd64)                                                      |
+| Virtualbox        | [debian-8.7.1-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.7.1-amd64_virtualbox.box) |
+| VMWare Fusion     | [debian-8.7.1-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.7.1-amd64_vmware.box)         |
 
 ---
 
