@@ -82,7 +82,7 @@ Boxes
 
 ---
 
-#### Ubuntu Xenial Xerus 16.04.1 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.1-server-amd64.manifest.json)
+#### Ubuntu Xenial Xerus 16.04.2 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.2-server-amd64.manifest.json)
 
 * VMware Tools 10.0.10 build-4301679
 * VirtualBox Guest Additions 5.1.14
@@ -92,9 +92,9 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-16.04.1-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.04.1-server-amd64)                                                      |
-| Virtualbox        | [ubuntu-16.04.1-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-16.04.1-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.1-server-amd64_vmware.box)         |
+| Atlas             | [ffuenf/ubuntu-16.04.2-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.04.2-server-amd64)                                                      |
+| Virtualbox        | [ubuntu-16.04.2-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.2-server-amd64_virtualbox.box) |
+| VMWare Fusion     | [ubuntu-16.04.2-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.2-server-amd64_vmware.box)         |
 
 ---
 

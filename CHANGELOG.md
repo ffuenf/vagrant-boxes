@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.45:
+* added Ubuntu Xenial Xerus 16.04.2 Server x86_64
+* depreciate Ubuntu Xenial Xerus 16.04.1 Server x86_64
+
 ## v1.0.44:
 * added Debian Jessie 8.7.1 x86_64
 * depreciate Debian Jessie 8.6.0 x86_64
