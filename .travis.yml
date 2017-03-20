@@ -4,7 +4,7 @@ dist: trusty
 rvm:
 - 2.4.0
 before_install: wget https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip
-  && unzip -d /usr/local/bin/packer packer_0.12.3_linux_amd64.zip
+  && rm -f /usr/local/bin/packer && unzip -d /usr/local/bin/packer packer_0.12.3_linux_amd64.zip
 script: packer -v && bundle exec thor packer:validate
 notifications:
   slack:
