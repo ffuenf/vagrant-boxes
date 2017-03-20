@@ -2,12 +2,9 @@
 
 vagrant-boxes
 =============
-[![GitHub tag](http://img.shields.io/github/tag/ffuenf/vagrant-boxes.svg)][tag]
-[![Build Status](http://img.shields.io/travis/ffuenf/vagrant-boxes.svg)][travis]
-[![PayPal Donate](https://img.shields.io/badge/paypal-donate-blue.svg)][paypal_donate]
-[tag]: https://github.com/ffuenf/vagrant-boxes/tags
-[travis]: https://travis-ci.org/ffuenf/vagrant-boxes
-[paypal_donate]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J2PQS2WLT2Y8W&item_name=dop%3a%20vagrant-boxes&item_number=vagrant-boxes&currency_code=EUR
+[![GitHub tag](http://img.shields.io/github/tag/ffuenf/vagrant-boxes.svg)](https://github.com/ffuenf/vagrant-boxes/tags)
+[![Build Status](http://img.shields.io/travis/ffuenf/vagrant-boxes.svg)](https://travis-ci.org/ffuenf/vagrant-boxes)
+[![PayPal Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J2PQS2WLT2Y8W&item_name=dop%3a%20vagrant-boxes&item_number=vagrant-boxes&currency_code=EUR)
 
 baseboxes build with packer for use with vagrant.
 This repository includes the packer templates to build the baseboxes.
