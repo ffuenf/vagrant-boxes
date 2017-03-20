@@ -1,8 +1,9 @@
 language: ruby
 sudo: false
+dist: trusty
 rvm:
 - 2.4.0
-before_install: curl -OL --insecure https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip
+before_install: wget https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip
   && unzip -d packer packer_0.12.3_linux_amd64.zip
 before_script: export PATH=$PATH:$PWD/packer
 script: bundle exec thor packer:validate
