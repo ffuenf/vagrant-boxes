@@ -104,7 +104,7 @@
         "scripts/vagrant.sh",
         "scripts/vmtools.sh",
         "scripts/ruby.sh",
-        "scripts/chef.sh",
+        "scripts/puppet_pc1_pc1_pc1.sh",
         "scripts/filesystem.sh",
         "scripts/cleanup.sh"
       ]
