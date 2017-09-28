@@ -5,10 +5,12 @@ HOME_DIR="${HOME_DIR:-/home/vagrant}";
 
 case "$PACKER_BUILDER_TYPE" in
 
+
 virtualbox-iso)
+    VER="`cat /home/vagrant/.vbox_version`";
+    ISO="VBoxGuestAdditions_$VER.iso";
     mkdir -p /tmp/vbox;
-    ver="`cat /home/vagrant/.vbox_version`";
-    mount -o loop $HOME_DIR/VBoxGuestAdditions_${ver}.iso /tmp/vbox;
+    mount -o loop $HOME_DIR/$ISO /tmp/vbox;
     sh /tmp/vbox/VBoxLinuxAdditions.run \
         || echo "VBoxLinuxAdditions.run exited $? and is suppressed." \
             "For more read https://www.virtualbox.org/ticket/12479";
@@ -18,20 +20,31 @@ virtualbox-iso)
     ;;
 
 vmware-iso)
-    mkdir -p /tmp/vmfusion;
-    mkdir -p /tmp/vmfusion-archive;
-    mount -o loop $HOME_DIR/linux.iso /tmp/vmfusion;
-    tar xzf /tmp/vmfusion/VMwareTools-*.tar.gz -C /tmp/vmfusion-archive;
-    /tmp/vmfusion-archive/vmware-tools-distrib/vmware-install.pl --force-install;
-    umount /tmp/vmfusion;
-    rm -rf  /tmp/vmfusion;
-    rm -rf  /tmp/vmfusion-archive;
+    mkdir -p /tmp/vmware;
+    mkdir -p /tmp/vmware-archive;
+    mount -o loop $HOME_DIR/linux.iso /tmp/vmware;
+
+    TOOLS_PATH="`ls /tmp/vmware/VMwareTools-*.tar.gz`";
+    VER="`echo "${TOOLS_PATH}" | cut -f2 -d'-'`";
+    MAJ_VER="`echo ${VER} | cut -d '.' -f 1`";
+
+    echo "VMware Tools Version: $VER";
+
+    tar xzf ${TOOLS_PATH} -C /tmp/vmware-archive;
+    if [ "${MAJ_VER}" -lt "10" ]; then
+        /tmp/vmware-archive/vmware-tools-distrib/vmware-install.pl --default;
+    else
+        /tmp/vmware-archive/vmware-tools-distrib/vmware-install.pl --force-install;
+    fi
+    umount /tmp/vmware;
+    rm -rf  /tmp/vmware;
+    rm -rf  /tmp/vmware-archive;
     rm -f $HOME_DIR/*.iso;
     ;;
 
 *)
     echo "Unknown Packer Builder Type >>$PACKER_BUILDER_TYPE<< selected.";
-    echo "Known are virtualbox-iso|vmware-iso|parallels-iso.";
+    echo "Known are virtualbox-iso|vmware-iso";
     ;;
 
 esac
