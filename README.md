@@ -10,7 +10,7 @@ baseboxes build with packer for use with vagrant.
 This repository includes the packer templates to build the baseboxes.
 The build boxes are available through 
 
-* [Atlas](https://atlas.hashicorp.com/ffuenf)
+* [Vagrantcloud](https://app.vagrantup.com/ffuenf)
 * Amazon S3 (eu-central-1)
 
 Tools
@@ -73,7 +73,7 @@ Boxes
 
 | Provider          | URL                                                                                                                                                   |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-17.04-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-17.04-server-amd64)                                                      |
+| Atlas             | [ffuenf/ubuntu-17.04-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.04-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-17.04-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.04-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-17.04-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.04-server-amd64_vmware.box)         |
 
@@ -89,7 +89,7 @@ Boxes
 
 | Provider          | URL                                                                                                                                                   |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-16.10-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.10-server-amd64)                                                      |
+| Atlas             | [ffuenf/ubuntu-16.10-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.10-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-16.10-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-16.10-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_vmware.box)         |
 
@@ -105,7 +105,7 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-16.04.3-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-16.04.3-server-amd64)                                                      |
+| Atlas             | [ffuenf/ubuntu-16.04.3-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.04.3-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-16.04.3-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.3-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-16.04.3-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.3-server-amd64_vmware.box)         |
 
@@ -121,7 +121,7 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-14.04.4-server-amd64](https://atlas.hashicorp.com/ffuenf/ubuntu-14.04.4-server-amd64)                                                      |
+| Atlas             | [ffuenf/ubuntu-14.04.4-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-14.04.4-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-14.04.4-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-14.04.4-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_vmware.box)         |
 
@@ -138,7 +138,7 @@ Boxes
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-9.1.0-amd64](https://atlas.hashicorp.com/ffuenf/debian-9.1.0-amd64)                                                      |
+| Atlas             | [ffuenf/debian-9.1.0-amd64](https://app.vagrantup.com/ffuenf/debian-9.1.0-amd64)                                                        |
 | Virtualbox        | [debian-9.1.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.1.0-amd64_virtualbox.box) |
 | VMWare Fusion     | [debian-9.1.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.1.0-amd64_vmware.box)         |
 
@@ -154,7 +154,7 @@ Boxes
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-8.9.0-amd64](https://atlas.hashicorp.com/ffuenf/debian-8.9.0-amd64)                                                      |
+| Atlas             | [ffuenf/debian-8.9.0-amd64](https://app.vagrantup.com/ffuenf/debian-8.9.0-amd64)                                                        |
 | Virtualbox        | [debian-8.9.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.9.0-amd64_virtualbox.box) |
 | VMWare Fusion     | [debian-8.9.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.9.0-amd64_vmware.box)         |
 
