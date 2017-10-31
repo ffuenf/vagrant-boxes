@@ -2,6 +2,17 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.49:
+* upgrade Debian Stretch 9.2.1 x86_64
+* depreciate Ubuntu Yakkety Yak 16.10 Server x86_64
+* added Ubuntu Artful Aardvark 17.10 Server x86_64
+* upgrade VirtualBox Guest Additions 5.2.1-118447
+
+## v1.0.48:
+* upgrade Debian Stretch 9.2.0 x86_64
+* upgrade VMware Tools 10.1.15 build-6627299
+* upgrade Chef 13.5.3-1
+
 ## v1.0.47:
 * added Debian Stretch 9.1.0 x86_64
 * upgrade Debian Jessie 8.9.0 x86_64
