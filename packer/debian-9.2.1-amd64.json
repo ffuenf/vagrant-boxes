@@ -1,0 +1,133 @@
+{
+    "variables": {
+        "PACKER_OS_FLAVOUR": "debian",
+        "PACKER_OS_RELEASE": "stretch",
+        "PACKER_BOX_NAME": "debian-9.2.1-amd64",
+        "AWS_ACCESS_KEY_ID": "{{env `AWS_ACCESS_KEY_ID`}}",
+        "AWS_SECRET_ACCESS_KEY": "{{env `AWS_SECRET_ACCESS_KEY`}}",
+        "PACKER_ATLAS_TOKEN": "{{env `PACKER_ATLAS_TOKEN`}}",
+        "PACKER_ATLAS_VERSION": "",
+        "DISK_SIZE": "25140"
+    },
+    "builders": [
+        {
+            "type": "virtualbox-iso",
+            "boot_command": [
+                "<esc><wait>",
+                "install <wait>",
+                "preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/{{ user `PACKER_BOX_NAME` }}/preseed.cfg <wait>",
+                "debian-installer=en_US <wait>",
+                "auto <wait>",
+                "locale=en_US <wait>",
+                "kbd-chooser/method=us <wait>",
+                "keyboard-configuration/xkb-keymap=us <wait>",
+                "netcfg/get_hostname={{ .Name }} <wait>",
+                "netcfg/get_domain=vagrantup.com <wait>",
+                "fb=false <wait>",
+                "debconf/frontend=noninteractive <wait>",
+                "console-setup/ask_detect=false <wait>",
+                "console-keymaps-at/keymap=us <wait>",
+                "<enter><wait>"
+            ],
+            "boot_wait": "10s",
+            "headless": true,
+            "disk_size": "{{ user `DISK_SIZE` }}",
+            "guest_os_type": "Debian_64",
+            "http_directory": "http",
+            "iso_checksum": "ebfe25dc593967e39349b205480b0ec0103ef4a0468c602f4857e13d06d407bfe876162399e0e8d4dea5675953dc37ab585316f307ccf9f4440124b4f719df04",
+            "iso_checksum_type": "sha512",
+            "iso_url": "http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
+            "ssh_username": "vagrant",
+            "ssh_password": "vagrant",
+            "ssh_port": 22,
+            "ssh_wait_timeout": "10000s",
+            "shutdown_command": "echo 'vagrant'|sudo -S /sbin/shutdown -hP now",
+            "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
+            "virtualbox_version_file": ".vbox_version",
+            "vm_name": "{{ user `PACKER_BOX_NAME` }}",
+            "vboxmanage": [
+                [ "modifyvm", "{{.Name}}", "--memory", "1024" ],
+                [ "modifyvm", "{{.Name}}", "--cpus", "2" ]
+            ]
+        },
+        {
+            "type": "vmware-iso",
+            "boot_command": [
+                "<esc><wait>",
+                "install <wait>",
+                " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/{{ user `PACKER_BOX_NAME` }}/preseed.cfg <wait>",
+                "debian-installer=en_US.UTF-8 <wait>",
+                "auto <wait>",
+                "locale=en_US.UTF-8 <wait>",
+                "kbd-chooser/method=us <wait>",
+                "keyboard-configuration/xkb-keymap=us <wait>",
+                "netcfg/get_hostname={{ .Name }} <wait>",
+                "netcfg/get_domain=vagrantup.com <wait>",
+                "fb=false <wait>",
+                "debconf/frontend=noninteractive <wait>",
+                "console-setup/ask_detect=false <wait>",
+                "console-keymaps-at/keymap=us <wait>",
+                "grub-installer/bootdev=/dev/sda <wait>",
+                "<enter><wait>"
+            ],
+            "boot_wait": "10s",
+            "headless": true,
+            "disk_size": "{{ user `DISK_SIZE` }}",
+            "guest_os_type": "debian7-64",
+            "http_directory": "http",
+            "iso_checksum": "ebfe25dc593967e39349b205480b0ec0103ef4a0468c602f4857e13d06d407bfe876162399e0e8d4dea5675953dc37ab585316f307ccf9f4440124b4f719df04",
+            "iso_checksum_type": "sha512",
+            "iso_url": "http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/{{ user `PACKER_BOX_NAME` }}-netinst.iso",
+            "ssh_username": "vagrant",
+            "ssh_password": "vagrant",
+            "ssh_port": 22,
+            "ssh_wait_timeout": "10000s",
+            "shutdown_command": "echo 'vagrant'|sudo -S /sbin/shutdown -hP now",
+            "tools_upload_flavor": "linux",
+            "vm_name": "{{ user `PACKER_BOX_NAME` }}",
+            "vmx_data": {
+                "memsize": "1024",
+                "numvcpus": "2",
+                "cpuid.coresPerSocket": "1"
+            }
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash -eux '{{.Path}}'",
+            "scripts": [
+                "scripts/update.sh",
+                "scripts/sshd.sh",
+                "scripts/sshd-debian.sh",
+                "scripts/networking.sh",
+                "scripts/sudoers.sh",
+                "scripts/vagrant.sh",
+                "scripts/vmtools.sh",
+                "scripts/ruby.sh",
+                "scripts/chef.sh",
+                "scripts/filesystem.sh",
+                "scripts/cleanup.sh"
+            ]
+        }
+    ],
+    "post-processors": [
+        [
+            {
+                "type": "vagrant",
+                "compression_level": 9,
+                "output": "../builds/{{.Provider}}/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"
+            },
+            {
+                "type": "checksum",
+                "checksum_types": ["sha256","sha512"],
+                "output": "../builds/CHECKSUMS"
+            },
+            {
+                "type": "manifest",
+                "output": "../builds/{{ user `PACKER_BOX_NAME` }}.manifest.json",
+                "strip_path": true
+            }
+        ]
+    ]
+}

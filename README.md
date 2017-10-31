@@ -65,47 +65,47 @@ Boxes
 ### Ubuntu
 #### Ubuntu Zesty Zapus 17.04 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.04-server-amd64.manifest.json)
 
-* VMware Tools 10.1.6
-* VirtualBox Guest Additions 5.1.28
-* Chef 13.4.24-1
+* VMware Tools 10.1.15 build-6627299
+* VirtualBox Guest Additions 5.2.1-118447
+* Chef 13.5.3-1
 * Ruby 2.3.0-5ubuntu1
-* Rubygems 2.6.13
+* Rubygems 2.6.14
 
 | Provider          | URL                                                                                                                                                   |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-17.04-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.04-server-amd64)                                                        |
+| Vagrantcloud      | [ffuenf/ubuntu-17.04-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.04-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-17.04-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.04-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-17.04-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.04-server-amd64_vmware.box)         |
 
 ---
 
-#### Ubuntu Yakkety Yak 16.10 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.10-server-amd64.manifest.json)
+#### Ubuntu Artful Aardvark 17.10 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10-server-amd64.manifest.json)
 
-* VMware Tools 10.1.6
-* VirtualBox Guest Additions 5.1.28
-* Chef 13.4.24-1
+* VMware Tools 10.1.15 build-6627299
+* VirtualBox Guest Additions 5.2.1-118447
+* Chef 13.5.3-1
 * Ruby 2.1.5-4ubuntu1
-* Rubygems 2.6.13
+* Rubygems 2.6.14
 
 | Provider          | URL                                                                                                                                                   |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-16.10-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.10-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-16.10-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-16.10-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.10-server-amd64_vmware.box)         |
+| Vagrantcloud      | [ffuenf/ubuntu-17.10-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.10-server-amd64)                                                        |
+| Virtualbox        | [ubuntu-17.10-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10-server-amd64_virtualbox.box) |
+| VMWare Fusion     | [ubuntu-17.10-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10-server-amd64_vmware.box)         |
 
 ---
 
 #### Ubuntu Xenial Xerus 16.04.3 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.3-server-amd64.manifest.json)
 
-* VMware Tools 10.1.6
-* VirtualBox Guest Additions 5.1.28
-* Chef 13.4.24-1
+* VMware Tools 10.1.15 build-6627299
+* VirtualBox Guest Additions 5.2.1-118447
+* Chef 13.5.3-1
 * Ruby 2.3.0-5ubuntu1
-* Rubygems 2.6.13
+* Rubygems 2.6.14
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-16.04.3-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.04.3-server-amd64)                                                        |
+| Vagrantcloud      | [ffuenf/ubuntu-16.04.3-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.04.3-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-16.04.3-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.3-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-16.04.3-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.3-server-amd64_vmware.box)         |
 
@@ -113,48 +113,48 @@ Boxes
 
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-14.04.4-server-amd64.manifest.json)
 
-* VMware Tools 10.1.6
-* VirtualBox Guest Additions 5.1.28
-* Chef 13.4.24-1
+* VMware Tools 10.1.15 build-6627299
+* VirtualBox Guest Additions 5.2.1-118447
+* Chef 13.5.3-1
 * Ruby 1.9.3.484-2ubuntu1.2
-* Rubygems 2.6.13
+* Rubygems 2.6.14
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/ubuntu-14.04.4-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-14.04.4-server-amd64)                                                        |
+| Vagrantcloud      | [ffuenf/ubuntu-14.04.4-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-14.04.4-server-amd64)                                                        |
 | Virtualbox        | [ubuntu-14.04.4-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_virtualbox.box) |
 | VMWare Fusion     | [ubuntu-14.04.4-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.4-server-amd64_vmware.box)         |
 
 ---
 
 ### Debian
-#### Debian Stretch 9.1.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.1.0-amd64.manifest.json)
+#### Debian Stretch 9.2.1 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.2.1-amd64.manifest.json)
 
-* VMware Tools 10.1.6
-* VirtualBox Guest Additions 5.1.28
-* Chef 13.4.24-1
+* VMware Tools 10.1.15 build-6627299
+* VirtualBox Guest Additions 5.2.1-118447
+* Chef 13.5.3-1
 * Ruby 2.3.3-1+deb9u1
-* Rubygems 2.6.13
+* Rubygems 2.6.14
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-9.1.0-amd64](https://app.vagrantup.com/ffuenf/debian-9.1.0-amd64)                                                        |
-| Virtualbox        | [debian-9.1.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.1.0-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-9.1.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.1.0-amd64_vmware.box)         |
+| Vagrantcloud      | [ffuenf/debian-9.2.1-amd64](https://app.vagrantup.com/ffuenf/debian-9.2.1-amd64)                                                        |
+| Virtualbox        | [debian-9.2.1-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.2.1-amd64_virtualbox.box) |
+| VMWare Fusion     | [debian-9.2.1-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.2.1-amd64_vmware.box)         |
 
 ---
 
 #### Debian Jessie 8.9.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.9.0-amd64.manifest.json)
 
-* VMware Tools 10.1.6
-* VirtualBox Guest Additions 5.1.28
-* Chef 13.4.24-1
+* VMware Tools 10.1.15 build-6627299
+* VirtualBox Guest Additions 5.2.1-118447
+* Chef 13.5.3-1
 * Ruby 2.1.5-2+deb8u3
-* Rubygems 2.6.13
+* Rubygems 2.6.14
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Atlas             | [ffuenf/debian-8.9.0-amd64](https://app.vagrantup.com/ffuenf/debian-8.9.0-amd64)                                                        |
+| Vagrantcloud      | [ffuenf/debian-8.9.0-amd64](https://app.vagrantup.com/ffuenf/debian-8.9.0-amd64)                                                        |
 | Virtualbox        | [debian-8.9.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.9.0-amd64_virtualbox.box) |
 | VMWare Fusion     | [debian-8.9.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.9.0-amd64_vmware.box)         |
 
