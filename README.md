@@ -66,8 +66,8 @@ Boxes
 #### Ubuntu Zesty Zapus 17.04 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.04-server-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
-* VirtualBox Guest Additions 5.2.1-118447
-* Chef 13.5.3-1
+* VirtualBox Guest Additions 5.2.2
+* Chef 13.6.4-1
 * Ruby 2.3.0-5ubuntu1
 * Rubygems 2.6.14
 
@@ -82,10 +82,10 @@ Boxes
 #### Ubuntu Artful Aardvark 17.10 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10-server-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
-* VirtualBox Guest Additions 5.2.1-118447
-* Chef 13.5.3-1
+* VirtualBox Guest Additions 5.2.2
+* Chef 13.6.4-1
 * Ruby 2.1.5-4ubuntu1
-* Rubygems 2.6.14
+* Rubygems 2.7.3
 
 | Provider          | URL                                                                                                                                                   |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -98,10 +98,10 @@ Boxes
 #### Ubuntu Xenial Xerus 16.04.3 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.3-server-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
-* VirtualBox Guest Additions 5.2.1-118447
-* Chef 13.5.3-1
+* VirtualBox Guest Additions 5.2.2
+* Chef 13.6.4-1
 * Ruby 2.3.0-5ubuntu1
-* Rubygems 2.6.14
+* Rubygems 2.7.3
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -114,10 +114,10 @@ Boxes
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-14.04.4-server-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
-* VirtualBox Guest Additions 5.2.1-118447
-* Chef 13.5.3-1
+* VirtualBox Guest Additions 5.2.2
+* Chef 13.6.4-1
 * Ruby 1.9.3.484-2ubuntu1.2
-* Rubygems 2.6.14
+* Rubygems 2.7.3
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -131,10 +131,10 @@ Boxes
 #### Debian Stretch 9.2.1 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.2.1-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
-* VirtualBox Guest Additions 5.2.1-118447
-* Chef 13.5.3-1
+* VirtualBox Guest Additions 5.2.2
+* Chef 13.6.4-1
 * Ruby 2.3.3-1+deb9u1
-* Rubygems 2.6.14
+* Rubygems 2.7.3
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -147,10 +147,10 @@ Boxes
 #### Debian Jessie 8.9.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.9.0-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
-* VirtualBox Guest Additions 5.2.1-118447
-* Chef 13.5.3-1
+* VirtualBox Guest Additions 5.2.2
+* Chef 13.6.4-1
 * Ruby 2.1.5-2+deb8u3
-* Rubygems 2.6.14
+* Rubygems 2.7.3
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |

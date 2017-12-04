@@ -2,6 +2,12 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.50:
+* upgrade VirtualBox Guest Additions 5.2.2
+* upgrade Rubygems 2.7.3
+* upgrade Chef 13.6.4-1
+* upgrade packer 1.1.2
+
 ## v1.0.49:
 * upgrade Debian Stretch 9.2.1 x86_64
 * depreciate Ubuntu Yakkety Yak 16.10 Server x86_64
