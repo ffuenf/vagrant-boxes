@@ -7,11 +7,8 @@ case "$PACKER_BUILDER_TYPE" in
 
 
 virtualbox-iso)
-    VER='5.2.1-118447';
+    VER="`cat /home/vagrant/.vbox_version`";
     ISO="VBoxGuestAdditions_$VER.iso";
-    wget -q "https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_$VER.iso" \
-         -O $HOME_DIR/$ISO;
-    #VER="`cat /home/vagrant/.vbox_version`";
     mkdir -p /tmp/vbox;
     mount -o loop $HOME_DIR/$ISO /tmp/vbox;
     sh /tmp/vbox/VBoxLinuxAdditions.run \
