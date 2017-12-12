@@ -41,9 +41,9 @@ class Packer < Thor
       templates = Dir.glob("#{options[:os]}-#{options[:os_version]}-amd64.json")
       templates.each do |template|
         name = template.chomp('.json').split('-')
-        if options[:os] == 'debian' && options[:os_version] == '9.2.0'
+	if options[:os] == 'debian' && options[:os_version] == '9.3.0'
           system "curl -s \"https://vagrantcloud.com/api/v1/box/ffuenf/#{options[:os]}-#{options[:os_version]}-amd64/versions\" -X POST -d version[version]=\"#{options[:atlas_version]}\" -d version[description]=\"### tools\n* VMware Tools 10.1.15 build-6627299\n* VirtualBox Guest Additions 5.2.2\n* Chef 13.6.4-1\n* Ruby 2.3.3-1+deb9u1\n* Rubygems 2.7.3\n\r### source\n[packer templates on github](https://github.com/ffuenf/vagrant-boxes)\" -d access_token=\"$PACKER_ATLAS_TOKEN\""
-        elsif options[:os] == 'debian' && options[:os_version] == '8.9.0'
+	elsif options[:os] == 'debian' && options[:os_version] == '8.10.0'
           system "curl -s \"https://vagrantcloud.com/api/v1/box/ffuenf/#{options[:os]}-#{options[:os_version]}-amd64/versions\" -X POST -d version[version]=\"#{options[:atlas_version]}\" -d version[description]=\"### tools\n* VMware Tools 10.1.15 build-6627299\n* VirtualBox Guest Additions 5.2.2\n* Chef 13.6.4-1\n* Ruby 2.1.5-2+deb8u3\n* Rubygems 2.7.3\n\r### source\n[packer templates on github](https://github.com/ffuenf/vagrant-boxes)\" -d access_token=\"$PACKER_ATLAS_TOKEN\""
         elsif options[:os] == 'ubuntu' && options[:os_version] == '16.04.2' || options[:os_version] == '16.04.3' || options[:os_version] == '17.04'
           system "curl -s \"https://vagrantcloud.com/api/v1/box/ffuenf/#{options[:os]}-#{options[:os_version]}-amd64/versions\" -X POST -d version[version]=\"#{options[:atlas_version]}\" -d version[description]=\"### tools\n* VMware Tools 10.1.15 build-6627299\n* VirtualBox Guest Additions 5.2.2\n* Chef 13.6.4-1\n* Ruby 2.3.0-5ubuntu1\n* Rubygems 2.7.3\n\r### source\n[packer templates on github](https://github.com/ffuenf/vagrant-boxes)\" -d access_token=\"$PACKER_ATLAS_TOKEN\""

@@ -128,7 +128,7 @@ Boxes
 ---
 
 ### Debian
-#### Debian Stretch 9.2.1 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.2.1-amd64.manifest.json)
+#### Debian Stretch 9.3.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.3.0-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
 * VirtualBox Guest Additions 5.2.2
@@ -138,13 +138,13 @@ Boxes
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/debian-9.2.1-amd64](https://app.vagrantup.com/ffuenf/debian-9.2.1-amd64)                                                        |
-| Virtualbox        | [debian-9.2.1-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.2.1-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-9.2.1-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.2.1-amd64_vmware.box)         |
+| Vagrantcloud      | [ffuenf/debian-9.3.0-amd64](https://app.vagrantup.com/ffuenf/debian-9.3.0-amd64)                                                        |
+| Virtualbox        | [debian-9.3.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.3.0-amd64_virtualbox.box) |
+| VMWare Fusion     | [debian-9.3.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.3.0-amd64_vmware.box)         |
 
 ---
 
-#### Debian Jessie 8.9.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.9.0-amd64.manifest.json)
+#### Debian Jessie 8.10.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.10.0-amd64.manifest.json)
 
 * VMware Tools 10.1.15 build-6627299
 * VirtualBox Guest Additions 5.2.2
@@ -152,11 +152,11 @@ Boxes
 * Ruby 2.1.5-2+deb8u3
 * Rubygems 2.7.3
 
-| Provider          | URL                                                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/debian-8.9.0-amd64](https://app.vagrantup.com/ffuenf/debian-8.9.0-amd64)                                                        |
-| Virtualbox        | [debian-8.9.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.9.0-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-8.9.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.9.0-amd64_vmware.box)         |
+| Provider          | URL                                                                                                                                       |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Vagrantcloud      | [ffuenf/debian-8.10.0-amd64](https://app.vagrantup.com/ffuenf/debian-8.10.0-amd64)                                                        |
+| Virtualbox        | [debian-8.10.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.10.0-amd64_virtualbox.box) |
+| VMWare Fusion     | [debian-8.10.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.10.0-amd64_vmware.box)         |
 
 ---
 
