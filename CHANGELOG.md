@@ -2,6 +2,14 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.51:
+* added Debian Jessie 8.10.0 x86_64
+* depreciate Debian Jessie 8.9.0 x86_64
+* added Debian Stretch 9.3.0 x86_64
+* depreciate Debian Stretch 9.2.1 x86_64
+* depreciate Debian Stretch 9.1.0 x86_64
+* upgrade Rubygems 2.7.3
+
 ## v1.0.50:
 * upgrade VirtualBox Guest Additions 5.2.2
 * upgrade Rubygems 2.7.3
