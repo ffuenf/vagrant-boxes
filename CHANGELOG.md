@@ -2,6 +2,11 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.52:
+* upgrade VirtualBox Guest Additions 5.2.4
+* upgrade VMware Tools 10.2.0 build-7259539
+* upgrade Rubygems 2.7.4
+
 ## v1.0.51:
 * added Debian Jessie 8.10.0 x86_64
 * depreciate Debian Jessie 8.9.0 x86_64
