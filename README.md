@@ -133,7 +133,7 @@ Boxes
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.4
 * Chef 13.6.4-1
-* Ruby 2.3.3-1+deb9u1
+* Ruby 2.3.3-1+deb9u2
 * Rubygems 2.7.4
 
 | Provider          | URL                                                                                                                                     |

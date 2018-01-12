@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.53:
+* mitigation of Meltdown / Spectre
+
 ## v1.0.52:
 * upgrade VirtualBox Guest Additions 5.2.4
 * upgrade VMware Tools 10.2.0 build-7259539
