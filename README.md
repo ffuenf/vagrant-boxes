@@ -63,35 +63,20 @@ Boxes
 =====
 
 ### Ubuntu
-#### Ubuntu Zesty Zapus 17.04 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.04-server-amd64.manifest.json)
+
+#### Ubuntu Artful Aardvark 17.10.1 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10.1-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.6
-* Chef 13.6.4-1
-* Ruby 2.3.0-5ubuntu1
-* Rubygems 2.7.4
-
-| Provider          | URL                                                                                                                                                   |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-17.04-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.04-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-17.04-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.04-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-17.04-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.04-server-amd64_vmware.box)         |
-
----
-
-#### Ubuntu Artful Aardvark 17.10 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10-server-amd64.manifest.json)
-
-* VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.6
-* Chef 13.6.4-1
+* Chef 13.7.16-1
 * Ruby 2.1.5-4ubuntu1
-* Rubygems 2.7.4
+* Rubygems 2.7.5
 
-| Provider          | URL                                                                                                                                                   |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-17.10-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.10-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-17.10-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-17.10-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10-server-amd64_vmware.box)         |
+| Provider          | URL                                                                                                                                                       |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Vagrantcloud      | [ffuenf/ubuntu-17.10.1-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.10.1-server-amd64)                                                        |
+| Virtualbox        | [ubuntu-17.10.1-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10.1-server-amd64_virtualbox.box) |
+| VMWare Fusion     | [ubuntu-17.10.1-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10.1-server-amd64_vmware.box)         |
 
 ---
 
@@ -99,7 +84,7 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.6
-* Chef 13.6.4-1
+* Chef 13.7.16-1
 * Ruby 2.3.0-5ubuntu1
 * Rubygems 2.7.4
 
@@ -115,9 +100,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.6
-* Chef 13.6.4-1
+* Chef 13.7.16-1
 * Ruby 1.9.3.484-2ubuntu1.2
-* Rubygems 2.7.4
+* Rubygems 2.7.5
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -132,9 +117,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.6
-* Chef 13.6.4-1
+* Chef 13.7.16-1
 * Ruby 2.3.3-1+deb9u2
-* Rubygems 2.7.4
+* Rubygems 2.7.5
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -148,9 +133,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.6
-* Chef 13.6.4-1
+* Chef 13.7.16-1
 * Ruby 2.1.5-2+deb8u3
-* Rubygems 2.7.4
+* Rubygems 2.7.5
 
 | Provider          | URL                                                                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |

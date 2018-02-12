@@ -2,6 +2,12 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.55:
+* remove Ubuntu Zesty Zapus 17.04 Server x86_64
+* update Ubuntu Artful Aardvark 17.10.1 Server x86_64
+* upgrade Rubygems 2.7.5
+* upgrade Chef 13.7.16-1
+
 ## v1.0.54:
 * upgrade VirtualBox Guest Additions 5.2.6
 
