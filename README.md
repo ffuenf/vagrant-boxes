@@ -67,9 +67,9 @@ Boxes
 #### Ubuntu Artful Aardvark 17.10.1 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10.1-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.6
-* Chef 13.7.16-1
-* Ruby 2.1.5-4ubuntu1
+* VirtualBox Guest Additions 5.2.8
+* Chef 13.8.3-1
+* Ruby 2.3.3-1ubuntu1.3
 * Rubygems 2.7.5
 
 | Provider          | URL                                                                                                                                                       |
@@ -80,27 +80,27 @@ Boxes
 
 ---
 
-#### Ubuntu Xenial Xerus 16.04.3 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.3-server-amd64.manifest.json)
+#### Ubuntu Xenial Xerus 16.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.4-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.6
-* Chef 13.7.16-1
-* Ruby 2.3.0-5ubuntu1
+* VirtualBox Guest Additions 5.2.8
+* Chef 13.8.3-1
+* Ruby 2.3.3-1ubuntu1.3
 * Rubygems 2.7.4
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-16.04.3-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.04.3-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-16.04.3-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.3-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-16.04.3-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.3-server-amd64_vmware.box)         |
+| Vagrantcloud      | [ffuenf/ubuntu-16.04.4-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.04.4-server-amd64)                                                        |
+| Virtualbox        | [ubuntu-16.04.4-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.4-server-amd64_virtualbox.box) |
+| VMWare Fusion     | [ubuntu-16.04.4-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.4-server-amd64_vmware.box)         |
 
 ---
 
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-14.04.4-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.6
-* Chef 13.7.16-1
+* VirtualBox Guest Additions 5.2.8
+* Chef 13.8.3-1
 * Ruby 1.9.3.484-2ubuntu1.2
 * Rubygems 2.7.5
 
@@ -116,8 +116,8 @@ Boxes
 #### Debian Stretch 9.3.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.3.0-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.6
-* Chef 13.7.16-1
+* VirtualBox Guest Additions 5.2.8
+* Chef 13.8.3-1
 * Ruby 2.3.3-1+deb9u2
 * Rubygems 2.7.5
 
@@ -132,8 +132,8 @@ Boxes
 #### Debian Jessie 8.10.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.10.0-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.6
-* Chef 13.7.16-1
+* VirtualBox Guest Additions 5.2.8
+* Chef 13.8.3-1
 * Ruby 2.1.5-2+deb8u3
 * Rubygems 2.7.5
 
