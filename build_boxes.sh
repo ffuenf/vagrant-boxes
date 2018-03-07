@@ -21,7 +21,7 @@ bundle exec thor packer:build \
 bundle exec thor packer:build \
   --atlas_version=1.0.56 \
   --os=ubuntu \
-  --os_version=16.04.3-server \
+  --os_version=16.04.4-server \
   --providers=virtualbox,vmware
 
 bundle exec thor packer:build \
