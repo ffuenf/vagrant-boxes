@@ -68,9 +68,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.8
-* Chef 13.8.3-1
+* Chef 14.0.190-1
 * Ruby 2.3.3-1ubuntu1.3
-* Rubygems 2.7.5
+* Rubygems 2.7.6
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -84,9 +84,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.8
-* Chef 13.8.3-1
+* Chef 14.0.190-1
 * Ruby 2.3.3-1ubuntu1.3
-* Rubygems 2.7.4
+* Rubygems 2.7.6
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -100,9 +100,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.8
-* Chef 13.8.3-1
+* Chef 14.0.190-1
 * Ruby 1.9.3.484-2ubuntu1.2
-* Rubygems 2.7.5
+* Rubygems 2.7.6
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -113,19 +113,19 @@ Boxes
 ---
 
 ### Debian
-#### Debian Stretch 9.3.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.3.0-amd64.manifest.json)
+#### Debian Stretch 9.4.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.4.0-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.8
-* Chef 13.8.3-1
+* Chef 14.0.190-1
 * Ruby 2.3.3-1+deb9u2
-* Rubygems 2.7.5
+* Rubygems 2.7.6
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/debian-9.3.0-amd64](https://app.vagrantup.com/ffuenf/debian-9.3.0-amd64)                                                        |
-| Virtualbox        | [debian-9.3.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.3.0-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-9.3.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.3.0-amd64_vmware.box)         |
+| Vagrantcloud      | [ffuenf/debian-9.4.0-amd64](https://app.vagrantup.com/ffuenf/debian-9.4.0-amd64)                                                        |
+| Virtualbox        | [debian-9.4.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.4.0-amd64_virtualbox.box) |
+| VMWare Fusion     | [debian-9.4.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.4.0-amd64_vmware.box)         |
 
 ---
 
@@ -133,9 +133,9 @@ Boxes
 
 * VMware Tools 10.2.0 build-7259539
 * VirtualBox Guest Additions 5.2.8
-* Chef 13.8.3-1
+* Chef 14.0.190-1
 * Ruby 2.1.5-2+deb8u3
-* Rubygems 2.7.5
+* Rubygems 2.7.6
 
 | Provider          | URL                                                                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |

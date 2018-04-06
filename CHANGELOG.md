@@ -2,6 +2,12 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.57:
+* added Debian Stretch 9.4.0 x86_64
+* depreciate Debian Stretch 9.3.0 x86_64
+* upgrade Rubygems 2.7.6
+* upgrade Chef 14.0.190-1
+
 ## v1.0.56:
 * upgrade VirtualBox Guest Additions 5.2.8
 * upgrade Ubuntu Xenial Xerus 16.04.4 Server x86_64
