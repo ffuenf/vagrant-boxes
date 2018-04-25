@@ -67,8 +67,8 @@ Boxes
 #### Ubuntu Artful Aardvark 17.10.1 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10.1-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.8
-* Chef 14.0.190-1
+* VirtualBox Guest Additions 5.2.10
+* Chef 14.0.202-1
 * Ruby 2.3.3-1ubuntu1.3
 * Rubygems 2.7.6
 
@@ -83,8 +83,8 @@ Boxes
 #### Ubuntu Xenial Xerus 16.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.4-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.8
-* Chef 14.0.190-1
+* VirtualBox Guest Additions 5.2.10
+* Chef 14.0.202-1
 * Ruby 2.3.3-1ubuntu1.3
 * Rubygems 2.7.6
 
@@ -99,8 +99,8 @@ Boxes
 #### Ubuntu Trusty Tahr 14.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-14.04.4-server-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.8
-* Chef 14.0.190-1
+* VirtualBox Guest Additions 5.2.10
+* Chef 14.0.202-1
 * Ruby 1.9.3.484-2ubuntu1.2
 * Rubygems 2.7.6
 
@@ -116,8 +116,8 @@ Boxes
 #### Debian Stretch 9.4.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.4.0-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.8
-* Chef 14.0.190-1
+* VirtualBox Guest Additions 5.2.10
+* Chef 14.0.202-1
 * Ruby 2.3.3-1+deb9u2
 * Rubygems 2.7.6
 
@@ -132,8 +132,8 @@ Boxes
 #### Debian Jessie 8.10.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.10.0-amd64.manifest.json)
 
 * VMware Tools 10.2.0 build-7259539
-* VirtualBox Guest Additions 5.2.8
-* Chef 14.0.190-1
+* VirtualBox Guest Additions 5.2.10
+* Chef 14.0.202-1
 * Ruby 2.1.5-2+deb8u3
 * Rubygems 2.7.6
 

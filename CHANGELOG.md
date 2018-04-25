@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.58:
+* upgrade VirtualBox Guest Additions 5.2.10
+* upgrade Chef 14.0.202-1
+
 ## v1.0.57:
 * added Debian Stretch 9.4.0 x86_64
 * depreciate Debian Stretch 9.3.0 x86_64
