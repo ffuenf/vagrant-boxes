@@ -103,7 +103,7 @@
                 "scripts/sudoers.sh",
                 "scripts/vagrant.sh",
                 "scripts/vmtools.sh",
-                "scripts/ruby.sh",
+                "scripts/ruby-debian.sh",
                 "scripts/chef.sh",
                 "scripts/filesystem.sh",
                 "scripts/cleanup.sh"
