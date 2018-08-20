@@ -2,6 +2,18 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.62:
+* update Ubuntu Bionic Beaver 18.04.1 LTS
+* upgrade VirtualBox Guest Additions 5.2.18
+* upgrade VMware Tools 10.2.5
+
+## v1.0.61:
+* update Debian Stretch 9.5.0 x86_64
+* update Debian Jessie 8.11.0 x86_64
+* update Ubuntu Trusty Tahr 14.04.5 Server x86_64
+* upgrade VirtualBox Guest Additions 5.2.16
+* upgrade Chef 14.3.37-1
+
 ## v1.0.60:
 * added Ubuntu Bionic Beaver 18.04 LTS
 * upgrade Chef 14.1.12-1
