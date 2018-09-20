@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of vagrant-boxes.
 
+## v1.0.63:
+* upgrade Chef 14.4.56-1
+
 ## v1.0.62:
 * update Ubuntu Bionic Beaver 18.04.1 LTS
 * upgrade VirtualBox Guest Additions 5.2.18
