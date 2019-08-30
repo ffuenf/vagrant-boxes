@@ -1,3 +1,4 @@
+-- DISCONTINUED! --
 <a href="http://www.ffuenf.de" title="ffuenf - code • design • e-commerce"><img src="https://github.com/ffuenf/Ffuenf_Common/blob/master/skin/adminhtml/default/default/ffuenf/ffuenf.png" alt="ffuenf - code • design • e-commerce" /></a>
 
 vagrant-boxes
@@ -64,7 +65,7 @@ Boxes
 
 ### Ubuntu
 
-#### Ubuntu Bionic Beaver 18.04.1 LTS / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-18.04.1-live-server.manifest.json)
+#### Ubuntu Bionic Beaver 18.04.1 LTS / CHECKSUMS / manifest
 
 * VMware Tools 10.3.2
 * VirtualBox Guest Additions 5.2.20
@@ -74,13 +75,13 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-18.04.1-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-18.04.1-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-18.04.1-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-18.04.1-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-18.04.1-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-18.04.1-server-amd64_vmware.box)         |
+| Vagrantcloud      | ffuenf/ubuntu-18.04.1-server-amd64                                                        |
+| Virtualbox        | ubuntu-18.04.1-server-amd64_virtualbox.box |
+| VMWare Fusion     | ubuntu-18.04.1-server-amd64_vmware.box         |
 
 ---
 
-#### Ubuntu Artful Aardvark 17.10.1 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-17.10.1-server-amd64.manifest.json)
+#### Ubuntu Artful Aardvark 17.10.1 Server x86_64 / CHECKSUMS / manifest
 
 * VMware Tools 10.3.2
 * VirtualBox Guest Additions 5.2.20
@@ -90,13 +91,13 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-17.10.1-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-17.10.1-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-17.10.1-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10.1-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-17.10.1-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-17.10.1-server-amd64_vmware.box)         |
+| Vagrantcloud      | ffuenf/ubuntu-17.10.1-server-amd64                                                        |
+| Virtualbox        | ubuntu-17.10.1-server-amd64_virtualbox.box |
+| VMWare Fusion     | ubuntu-17.10.1-server-amd64_vmware.box         |
 
 ---
 
-#### Ubuntu Xenial Xerus 16.04.4 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-16.04.4-server-amd64.manifest.json)
+#### Ubuntu Xenial Xerus 16.04.4 Server x86_64 / CHECKSUMS / manifest
 
 * VMware Tools 10.3.2
 * VirtualBox Guest Additions 5.2.20
@@ -106,13 +107,13 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-16.04.4-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-16.04.4-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-16.04.4-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.4-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-16.04.4-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-16.04.4-server-amd64_vmware.box)         |
+| Vagrantcloud      | ffuenf/ubuntu-16.04.4-server-amd64                                                        |
+| Virtualbox        | ubuntu-16.04.4-server-amd64_virtualbox.box |
+| VMWare Fusion     | ubuntu-16.04.4-server-amd64_vmware.box         |
 
 ---
 
-#### Ubuntu Trusty Tahr 14.04.5 Server x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu-14.04.5-server-amd64.manifest.json)
+#### Ubuntu Trusty Tahr 14.04.5 Server x86_64 / CHECKSUMS / manifest
 
 * VMware Tools 10.3.2
 * VirtualBox Guest Additions 5.2.20
@@ -122,14 +123,14 @@ Boxes
 
 | Provider          | URL                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/ubuntu-14.04.5-server-amd64](https://app.vagrantup.com/ffuenf/ubuntu-14.04.5-server-amd64)                                                        |
-| Virtualbox        | [ubuntu-14.04.5-server-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.5-server-amd64_virtualbox.box) |
-| VMWare Fusion     | [ubuntu-14.04.5-server-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/ubuntu/ubuntu-14.04.5-server-amd64_vmware.box)         |
+| Vagrantcloud      | ffuenf/ubuntu-14.04.5-server-amd64                                                        |
+| Virtualbox        | ubuntu-14.04.5-server-amd64_virtualbox.box |
+| VMWare Fusion     | ubuntu-14.04.5-server-amd64_vmware.box         |
 
 ---
 
 ### Debian
-#### Debian Stretch 9.5.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-9.5.0-amd64.manifest.json)
+#### Debian Stretch 9.5.0 x86_64 / CHECKSUMS / manifest
 
 * VMware Tools 10.3.2
 * VirtualBox Guest Additions 5.2.20
@@ -139,13 +140,13 @@ Boxes
 
 | Provider          | URL                                                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/debian-9.5.0-amd64](https://app.vagrantup.com/ffuenf/debian-9.5.0-amd64)                                                        |
-| Virtualbox        | [debian-9.5.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.5.0-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-9.5.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-9.5.0-amd64_vmware.box)         |
+| Vagrantcloud      | ffuenf/debian-9.5.0-amd64                                                        |
+| Virtualbox        | debian-9.5.0-amd64_virtualbox.box |
+| VMWare Fusion     | debian-9.5.0-amd64_vmware.box         |
 
 ---
 
-#### Debian Jessie 8.11.0 x86_64 / [CHECKSUMS](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/CHECKSUMS) / [manifest](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian-8.11.0-amd64.manifest.json)
+#### Debian Jessie 8.11.0 x86_64 / CHECKSUMS / manifest
 
 * VMware Tools 10.3.2
 * VirtualBox Guest Additions 5.2.20
@@ -155,9 +156,9 @@ Boxes
 
 | Provider          | URL                                                                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Vagrantcloud      | [ffuenf/debian-8.11.0-amd64](https://app.vagrantup.com/ffuenf/debian-8.11.0-amd64)                                                        |
-| Virtualbox        | [debian-8.11.0-amd64_virtualbox.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.11.0-amd64_virtualbox.box) |
-| VMWare Fusion     | [debian-8.11.0-amd64_vmware.box](https://s3.eu-central-1.amazonaws.com/ffuenf-vagrantboxes/debian/debian-8.11.0-amd64_vmware.box)         |
+| Vagrantcloud      | ffuenf/debian-8.11.0-amd64                                                        |
+| Virtualbox        | debian-8.11.0-amd64_virtualbox.box |
+| VMWare Fusion     | debian-8.11.0-amd64_vmware.box         |
 
 ---
 
